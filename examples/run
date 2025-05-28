@@ -1,0 +1,5 @@
+#! /home/codespace/.python/current/bin/python
+
+x = 10
+y = 40
+print(x + y)
