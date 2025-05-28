@@ -1,18 +1,18 @@
 ## 🧠 Bash Scripting
 
-### 1. Introduction to Bash
+### [1. Introduction to Bash](./lessons/Lesson-1-Introduction-to-Bash.md)
 
 * What is Bash?
 * Why use Bash scripting?
 * Basic syntax & the terminal
 
-### 2. Getting Started with Scripts
+### [2. Getting Started with Scripts](./lessons/Lesson-2-Getting-Started-with-Scripts.md)
 
 * Writing your first script
 * Making a script executable
 * Running a Bash script
 
-### 3. Variables and Data Types
+### [3. Variables and Data Types](./lessons/Lesson-3-Variables-and-Data-Types.md)
 
 * Declaring variables
 * Using variables
