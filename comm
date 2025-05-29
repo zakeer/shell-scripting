@@ -1,0 +1,8 @@
+#! /home/codespace/nvm/current/bin/node
+
+const PERCENTAGE = 15;
+var amount = 799;
+const discount = (amount * PERCENTAGE) / 100;
+const pay = amount - discount
+
+console.log(pay)
