@@ -19,13 +19,13 @@
 * Reading user input
 * Special variables
 
-### 4. Conditional Statements
+### [4. Conditional Statements](./lessons/Lesson-4-Conditional-Statements.md)
 
 * `if`, `else`, `elif`
 * Comparison operators
 * `case` statements
 
-### 5. Loops
+### [5. Loops](./lessons/Lesson-5-Loops-in-Bash.md)
 
 * `for` loops
 * `while` loops
