@@ -130,6 +130,32 @@ esac
 
 > `;;` ends each case block. `*` is the default (like "else").
 
+
+## Flow
+```mermaid
+flowchart TD
+    A[Start Script] --> B[Ask for username]
+    B --> C[Read username input]
+    C --> D[Ask for age]
+    D --> E[Read age input]
+    
+    E --> F{Is username = admin?}
+    F -- Yes --> G[Print Welcome, admin!]
+    F -- No --> H[Print Hello, username!]
+
+    G --> I{Age < 13?}
+    H --> I
+
+    I -- Yes --> J[Access Denied]
+    I -- No --> K{Age < 18?}
+    K -- Yes --> L[Limited Access]
+    K -- No --> M[Full Access Granted]
+
+    J --> N[End]
+    L --> N
+    M --> N
+```
+
 ---
 
 ## 🧠 Summary
