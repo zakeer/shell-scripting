@@ -20,3 +20,22 @@ elif [ $age -lt 18 ]; then
 else
     echo "Full Access"
 fi
+
+# read -p "Which team you belong to : " team
+echo "Which team you belong to : "
+echo "ux"
+echo "frontend"
+echo "backend"
+read team
+
+case $team in
+	ux)
+		echo "Please start working design login page";;
+	frontend)
+		echo "Develop UI component for login page";;
+	backend)
+		echo "Implement authentication api for login page";;
+	*)
+		echo "Sorry not allowed to work";;
+esac
+
