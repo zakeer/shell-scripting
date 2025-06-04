@@ -32,7 +32,7 @@
 * `until` loops
 * `break` and `continue`
 
-### 6. Functions in Bash
+### [6. Functions in Bash](./lessons/lesson-6-Functions-in-Bash.md)
 
 * Defining functions
 * Arguments to functions
