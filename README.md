@@ -38,7 +38,7 @@
 * Arguments to functions
 * Returning values
 
-### 7. Working with Files
+### [7. Working with Files](./lessons/Lesson-7-Working-with-files.md)
 
 * Reading and writing files
 * Redirects: `>`, `>>`, `<`
