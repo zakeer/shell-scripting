@@ -145,7 +145,7 @@ This **shows** the message and also **appends** it to `log.txt`.
 | `>`    | Write (overwrite)    |                                |
 | `>>`   | Append               |                                |
 | `<`    | Read from file       |                                |
-| \`     | \`                   | Pipe output to another command |
+| `|`     | `|`                 | Pipe output to another command |
 | `tee`  | Show and save output |                                |
 
 ---
