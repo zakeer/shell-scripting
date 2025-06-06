@@ -44,13 +44,13 @@
 * Redirects: `>`, `>>`, `<`
 * Pipes and `tee`
 
-### 8. String and Array Operations
+### [8. String and Array Operations](./lessons/Lesson-8-String-and-Array-Manipulation.md)
 
 * String manipulation
 * Arrays in Bash
 * Looping through arrays
 
-### 9. Error Handling and Debugging
+### [9. Error Handling and Debugging](./lessons/Lesson-9-Error-Handling-and-Debugging.md)
 
 * Exit status
 * `set -e`, `set -x`
