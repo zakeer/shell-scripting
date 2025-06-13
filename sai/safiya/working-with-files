@@ -1,0 +1,23 @@
+writing a file with >
+echo "Hello,safiya!">greeting.txt
+Hello,safiya!
+
+Appending to a file with >>
+echo "How are you?">>gr
+Hello , safiya!
+how are  you?
+
+Reading from a file Line-by-Line 
+#!/bin/bash 
+while read line; do 
+  echo "Line: $line"
+done < greeting.txt 
+
+
+pipes 
+echo "hello world' !tr a"
+
+tee-save output AND shows
+echo 'This is a test"
+
+

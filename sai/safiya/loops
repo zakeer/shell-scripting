@@ -1,0 +1,31 @@
+for loop 
+for fruit in apple banana
+do 
+  echo "I like $fruit"
+  done 
+
+
+  for loop with numbers 
+  for i in 1..5
+  do 
+    echo "count:$i"
+    done 
+
+
+    while loop 
+    count=1
+    while [$count -le 3 ]
+    do 
+      echo "count is $count"
+      ((count++))
+    done 
+
+
+    until loop 
+    count=1 
+    untill [$count -gt 3] 
+    do 
+      echo "count is $count" 
+      ((count++))
+    done 
+    

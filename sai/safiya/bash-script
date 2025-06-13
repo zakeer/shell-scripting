@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Hello, this is my file.sh
+touch myscript.sh
+nano myscript.sh
+ctri+0,enter,ctrl+x in nano
+chomd +x myscript.sh
+./myscript.sh
