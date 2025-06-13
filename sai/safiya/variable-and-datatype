@@ -1,0 +1,19 @@
+name="safiya"
+echo 'Hello,$name"
+Hello, safiya
+echo "what is your name?"
+read user_name
+echo "Welcome, $user_name
+ 
+
+ data type in bash
+ string
+greetings="Hello"
+
+Number
+x=5
+y=3
+sum$((x=y))
+echo "sum is: $sum"
+chmod=xx userinfo.sh
+./userinfo.sh
