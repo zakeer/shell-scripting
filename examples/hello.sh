@@ -11,3 +11,7 @@ elif age > 18:
     print("Your aligible for voting")
 else :
     print("messeage : Error")
+
+
+for i in range(1, 11):
+      print("*",i)

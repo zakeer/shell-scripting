@@ -13,7 +13,7 @@ variable=value
 # Example
 x=10
 y=20
-username="Syed Zakeer Hussain"
+username="Savada ramakrishna"
 ```
 
 ### Access
