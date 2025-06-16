@@ -27,7 +27,7 @@ echo $username
 
 ### User Input
 ```bash
-read -p "message" variableName
+read -p "message" variableN`ame
 
 # example
 read -p "Please provide your name: " guestName          # camelCase

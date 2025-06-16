@@ -25,5 +25,24 @@ fi
 
 echo $result
 
+#example :- 2
 
+echo "--- find big number ---"
+read -p "Provide x value =" x
+read -p "Provide y value =" y
+
+echo "x=$x"
+echo "y=$y"
+
+result=""
+
+if [ x -gt y] ; then
+    result="$x"
+elif [ x -lt y] ; then
+    return="$y"
+elif [ x -eq y] ; then
+    result="both are equal"
+fi
+
+echo $result
 
