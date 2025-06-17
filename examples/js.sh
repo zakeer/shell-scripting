@@ -1,3 +1,3 @@
-#! /home/codespace/nvm/current/bin/node
+#! /usr/bin/bash
 
-console.log("Hello Javascript")
+console.log("Hello Harsha")

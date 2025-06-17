@@ -1,3 +1,4 @@
-#! /home/codespace/.python/current/bin/python
+#!/usr/bin/bash
 
-print(10 * 78)
+
+print(1033 * 78)
