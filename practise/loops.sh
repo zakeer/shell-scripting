@@ -1,30 +1,29 @@
 #!/usr/bin/bash
 
-    #          0                   1        2
-friends=("Syed Zakeer Hussain" "V Harish" "CH Harsha", "ManiKanta Narahari")
-
-# echo ${values[0]}
-# echo ${values[1]}
-# echo ${values[2]}
-
-for friend_name in "${friends[@]}"
+echo "=== FOR loop ==="
+for i in 1 2 3 4 5
 do
-    echo "Hey $friend_name"
+    echo "For loop iteration: $i"
 done
 
-for number in one two three four five six 
+echo ""
+echo "=== WHILE loop ==="
+count=1
+while [ $count -le 5 ]
 do
-    echo $number
+    echo "While loop count: $count"
+    ((count++))
 done
 
-for number in {1..20}
+echo ""
+echo "=== UNTIL loop ==="
+count=1
+until [ $count -gt 5 ]
 do
-    if [ $((number % 2)) -eq 0 ]; then
-        echo "$number is Even"
-    else
-        echo "$number is Odd"
-    fi
+    echo "Until loop count: $count"
+    ((count++))
 done
+
 
 
 

@@ -1,22 +1,14 @@
 #!/usr/bin/bash
 
-
-# Function declaration
 function run() {
     echo "One"
     echo "Two"
     echo "Three"
 }
-
-# Function invoke / run / trigger
 run
-
-
-
 function add() {
     echo "Addition of $1 + $2 = $(($1 + $2))"
 }  
-
 
 add 23 45
 
@@ -27,7 +19,6 @@ greet() {
 }
 
 greet $name
-
 
 minus() {
     result=$(($1-$2))

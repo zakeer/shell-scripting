@@ -1,25 +1,16 @@
 #! /usr/bin/bash
 
-echo "Enter username: "
-read username
+echo "Enter a number:"
+read num
 
-read -p "Enter age: " age
-
-echo "Hey $username, you are $age old"
-
-if [ $username = "admin" ]; then
-    echo "Welcome, admin!"
+if [ $num -gt 0 ]; then
+    echo "The number is positive."
+elif [ $num -lt 0 ]; then
+    echo "The number is negative."
 else
-    echo "Hello, $username"
+    echo "The number is zero."
 fi
 
-if [ $age -lt 13 ]; then
-    echo "Access denied"
-elif [ $age -lt 18 ]; then
-    echo "Limited Access"
-else
-    echo "Full Access"
-fi
 
 # read -p "Which team you belong to : " team
 echo "Which team you belong to : "
