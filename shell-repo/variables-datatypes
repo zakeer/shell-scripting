@@ -1,0 +1,24 @@
+name="Sumaiah"
+echo "Hello, $name"
+Output Hello,Sumaiah
+
+#!/bin/bash
+echo "Script name: $0"
+echo "First arggument:$1"
+
+Run it bash script.sh hello
+Output:
+Script name:script.sh
+First argument: hello
+
+Datatypes in bash
+
+String
+
+greeting="hello"
+
+Number
+x=5
+y=3
+su$((x + y))
+echo "Sum is: $sum"

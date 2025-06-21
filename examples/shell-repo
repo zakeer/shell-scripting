@@ -1,0 +1,15 @@
+Command Structure
+
+example:
+ls -1 /home/user
+
+.ls:command
+.-l:option (long format)
+. /home/user:argument
+(directory to list)   
+
+
+
+echo "Hello,world!"
+pwd
+whoami

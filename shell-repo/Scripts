@@ -1,0 +1,18 @@
+#!/bin/bash
+echo "Hello,this is my first bash script!"
+
+touch myscript.sh
+
+nano myscript.sh
+
+#!/bin/bash
+echo "Script is running..."
+date
+
+save and exit ( Cntrl +o,Enter,then Cntrl + X in nano)
+
+chmod +X myscript.sh
+
+Running a bash script
+./myscript.sh
+bash myscript.sh
