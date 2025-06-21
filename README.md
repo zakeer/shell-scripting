@@ -1,3 +1,4 @@
+
 ## 🧠 Bash Scripting
 
 ### [1. Introduction to Bash](./lessons/Lesson-1-Introduction-to-Bash.md)
